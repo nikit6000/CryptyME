@@ -10,7 +10,7 @@ Encrypt your memes with 2048 bit RSA key.
 ```
 $ ./CrypryMe [args]
 Args:
-	-e <file_name> - ecrypt file.
+	-e <file_name> - encrypt file.
 	-d <file_name> - decrypt file.
 	-k <private_key_pem> - set private key.
 ```
