@@ -58,7 +58,7 @@ int main(int argc, const char * argv[]) {
             }
         }
     } else {
-        cout << "Usage: CrypryMe [args]\nArgs:\n\t-e <file_name> - ecrypt file.\n\t-d <file_name> - decrypt file.\n\t-k <private_key_pem> - set private key.\n";
+        cout << "Usage: CrypryMe [args]\nArgs:\n\t-e <file_name> - encrypt file.\n\t-d <file_name> - decrypt file.\n\t-k <private_key_pem> - set private key.\n";
     }
     
     if (to_encrypt != NULL) {
