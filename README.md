@@ -1,2 +1,20 @@
 # CryptyME
-Шифруй мемасы 2048-и битным RSA ключем
+Encrypt your memes with 2048 bit RSA key.
+
+### Dependencies
+
+* [OpenSSL](https://github.com/openssl/openssl)
+
+### Usage
+
+```
+$ ./CrypryMe [args]
+Args:
+	-e <file_name> - ecrypt file.
+	-d <file_name> - decrypt file.
+	-k <private_key_pem> - set private key.
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
